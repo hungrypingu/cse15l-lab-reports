@@ -9,6 +9,7 @@ not index.html
 
 [Link](https://hungrypingu.github.io/cse15l-lab-reports/somethingelse.html)
 [Link][1]
+⋮
 [1]: https://hungrypingu.github.io/cse15l-lab-reports/somethingelse.html
 
 ![Image](https://cdn.britannica.com/q:60/91/181391-050-1DA18304/cat-toes-paw-number-paws-tiger-tabby.jpg)
