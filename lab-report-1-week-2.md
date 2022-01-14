@@ -80,6 +80,8 @@ This is a screenshot of the secondary file we made during discussion on 1/13/22
 
     ![Image](images/admin_ssh_agent_fail.png)
 
+---
+
 6. *Optimizing remote running*
 
     Since I couldn't figure out how to get my ssh key working in time for this, I still had to type out my password. (I'll try to resolve this quickly.)
@@ -96,3 +98,8 @@ This is a screenshot of the secondary file we made during discussion on 1/13/22
     scp WhereAmI.java cs15lwi22axv@ieng6.ucsd.edu:~/;
     ssh cs15lwi22axv@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
     ```
+
+    * Copies the file to a save file locally
+    * Compiles the save file
+    * Copies the file to the remote server
+    * Connects to the remote server, and compiles and runs the file
