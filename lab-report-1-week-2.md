@@ -82,4 +82,17 @@ This is a screenshot of the secondary file we made during discussion on 1/13/22
 
 6. *Optimizing remote running*
 
+    Since I couldn't figure out how to get my ssh key working in time for this, I still had to type out my password. (I'll try to resolve this quickly.)
 
+    The simplest, one-line command that I found that saves my work locally then copies it to the remote server and runs it was this:
+
+    ![Image](images/optimizing_remote.png)
+
+    This is the full line broken down into parts:
+
+    ```
+    cp WhereAmI.java OtherMain.java;
+    javac OtherMain.java;
+    scp WhereAmI.java cs15lwi22axv@ieng6.ucsd.edu:~/;
+    ssh cs15lwi22axv@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+    ```
