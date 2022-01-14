@@ -7,10 +7,12 @@ not index.html
 # dope header #
 ## another dope header ##
 
-[Link](https://hungrypingu.github.io/cse15l-lab-reports/somethingelse.html)
-[Link][1]
-⋮
-[1]: https://hungrypingu.github.io/cse15l-lab-reports/somethingelse.html
+[yo](https://hungrypingu.github.io/cse15l-lab-reports/somethingelse.html)
+
+[hello][1]
+
+
+[1]: http://b.org
 
 ![Image](https://cdn.britannica.com/q:60/91/181391-050-1DA18304/cat-toes-paw-number-paws-tiger-tabby.jpg)
 
