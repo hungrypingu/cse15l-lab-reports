@@ -12,6 +12,10 @@ This is a screenshot of the secondary file we made during discussion on 1/13/22
 
     Go to the Visual Studio Code website to download VScode [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
+    ![Image](images/open_vscode.png)
+
+    This is what my VScode looks like.
+
 ---
 
 2. *Remotely connecting*
