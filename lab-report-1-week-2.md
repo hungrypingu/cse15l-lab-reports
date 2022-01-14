@@ -54,8 +54,25 @@ This is a screenshot of the secondary file we made during discussion on 1/13/22
 
 4. *Moving files with* `scp`
 
+    First, I made `WhereAmI.java` on my computer.
 
+    ![Image](images/where_am_i.png)
+
+    This was the result of running the program:
+
+    ![Image](images/local_whereami_run.png)
+
+    Then, I securely copied it to the remote server by using the command `scp WhereAmI.java cs15lwi22axv@ieng6.ucsd.edu:~/`, then ran it on the remote server.
+
+    ![Image](images/scp_success.png)
+
+    As you can see, it has different results because it is returning different values for the program based on the operating system and the username.
+
+---
 
 5. *Setting an SSH key*
+
+    
+
 6. *Optimizing remote running*
 
