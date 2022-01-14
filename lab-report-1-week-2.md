@@ -45,9 +45,17 @@ This is a screenshot of the secondary file we made during discussion on 1/13/22
 
 3. *Trying some commands*
 
-    
+    ![Image](images/testing_commands.png)
+
+    * In this screenshot I included some of the recommended trial commands, including ls, ls -a (which shows hidden items), mkdir, and cp.
+    * Unfortunately I don't think I have access to the file that was given in the example for cp, but cp works on the command line on my local directory on my computer.
+
+---
 
 4. *Moving files with* `scp`
+
+
+
 5. *Setting an SSH key*
 6. *Optimizing remote running*
 
