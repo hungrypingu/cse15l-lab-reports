@@ -72,7 +72,14 @@ This is a screenshot of the secondary file we made during discussion on 1/13/22
 
 5. *Setting an SSH key*
 
-    
+    For this step, I was succcessful in generating a key and making a `.ssh` directory in the remote server:
+
+    ![Image](images/ssh_keygen.png)
+
+    However, I tried to follow the steps to securely copy my public key to the server in the file `authorized_keys`, but it didn't work. I also tried to follow the Windows instructions for `ssh-add` [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) but that also didn't seem to work despite being on command prompt as an admin:
+
+    ![Image](images/admin_ssh_agent_fail.png)
 
 6. *Optimizing remote running*
+
 
