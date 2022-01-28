@@ -2,7 +2,7 @@
 
 # Debugging
 
-## BugFix 1
+## 1. First bug
 
 **Bug:** 
 
@@ -20,7 +20,7 @@ If the file did not end with a valid link, the code infinitely looped. This is s
 
 ---
 
-## BugFix 2
+## 2. Second bug
 
 **Bug:**
 
@@ -38,7 +38,7 @@ When the file contained an extra `[]` after the last valid link, the code infini
 
 ---
 
-## BugFix 3
+## 3. Third bug
 
 **Bug:**
 
@@ -46,9 +46,10 @@ When the file contained an extra `[]` after the last valid link, the code infini
 
 **Symptom:**
 
-![Image](images2/)
+![Image](images2/error3.png)
 
 **GitHub change:**
 
-![Image](images2/)
+![Image](images2/error3githubsolution.png)
 
+If the file had non-links that had text or space between the brackets and parentheses, it would still count as a valid link. The symptoms show that the code still added bad links, and also included empty links. I solved this by not executing the code to add the link if it identified that there was text between the brackets and parentheses, or if the link was empty.
