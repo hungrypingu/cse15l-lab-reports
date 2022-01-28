@@ -116,3 +116,5 @@ ssh cs15lwi22axv@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 
 `ssh cs15lwi22axv@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
 * Connects to the remote server, and compiles and runs the file
+
+Overall, compressing this entire process into one line removes 3 keystrokes: one from each line that is added to the long single command.
