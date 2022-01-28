@@ -28,12 +28,13 @@ If the file did not end with a valid link, the code infinitely looped. This is s
 
 **Symptom:**
 
-![Image](images2/)
+![Image](images2/error2.png)
 
 **GitHub change:**
 
-![Image](images2/)
+![Image](images2/error2githubsolution.png)
 
+When the file contained an extra `[]` after the last valid link, the code infinitely looped. In this particular case it never adds anything to the array of links, which is why the symptom doesn't show running out of memory as an issue. This is solved by breaking the loop if any of the brackets or parenthese returns to the beginning, instead of just the first open bracket.
 
 ---
 
