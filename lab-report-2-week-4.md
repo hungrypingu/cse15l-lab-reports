@@ -6,7 +6,7 @@
 
 **Bug:** 
 
-[Link to the failure inducing input text file](misc/text-file.java)
+[Link to the failure inducing input text file](misc/test-file.md)
 
 **Symptom:**
 
@@ -24,7 +24,7 @@ If the file did not end with a valid link, the code infinitely looped. This is s
 
 **Bug:**
 
-[Link to the second failure inducing input text file](misc/text-file3.java)
+[Link to the second failure inducing input text file](misc/test-file3.md)
 
 **Symptom:**
 
@@ -42,7 +42,7 @@ When the file contained an extra `[]` after the last valid link, the code infini
 
 **Bug:**
 
-[Link to the third failure inducing input text file](misc/text-file4.java)
+[Link to the third failure inducing input text file](misc/test-file4.md)
 
 **Symptom:**
 
