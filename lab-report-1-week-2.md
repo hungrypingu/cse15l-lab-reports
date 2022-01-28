@@ -96,6 +96,8 @@ The simplest, one-line command that I found that saves my work locally then copi
 
 ![Image](images/optimizing_remote.png)
 
+Overall, compressing this entire process into one line removes 3 keystrokes: one from each line that is added to the long single command.
+
 This is the full line broken down into parts:
 
 ```
@@ -117,4 +119,3 @@ ssh cs15lwi22axv@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 `ssh cs15lwi22axv@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
 * Connects to the remote server, and compiles and runs the file
 
-Overall, compressing this entire process into one line removes 3 keystrokes: one from each line that is added to the long single command.
