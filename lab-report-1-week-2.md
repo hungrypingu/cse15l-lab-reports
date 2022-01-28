@@ -96,7 +96,9 @@ The simplest, one-line command that I found that saves my work locally then copi
 
 ![Image](images/optimizing_remote.png)
 
-Overall, compressing this entire process into one line removes 3 keystrokes: one from each line that is added to the long single command.
+Overall, compressing this entire process into one line removes 3 keystrokes: one from each line that is added to the long single command. 
+
+Having a functioning ssh key would help a lot, but either way not having to type separate lines still saves time running remotely.
 
 This is the full line broken down into parts:
 
