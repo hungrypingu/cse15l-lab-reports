@@ -6,7 +6,9 @@
 
 **What it should produce:** 
 
-![Image](images4/)
+Original snippet on the left and expected output on the right, using [the CommonMark demo site](https://spec.commonmark.org/dingus/).
+
+![Image](images4/snip1should.png)
 
 **MarkdownParseTest:**
 
@@ -26,7 +28,7 @@
 
 **What it should produce:** 
 
-![Image](images4/)
+![Image](images4/snip2should.png)
 
 **MarkdownParseTest:**
 
@@ -46,7 +48,7 @@
 
 **What it should produce:** 
 
-![Image](images4/)
+![Image](images4/snip3should.png)
 
 **MarkdownParseTest:**
 
