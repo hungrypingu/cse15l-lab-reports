@@ -2,29 +2,41 @@
 
 # Debugging
 
-## Snippet 1
+## 1. Snippet 1
 
 **What it should produce:** 
 
-Original snippet on the left and expected output on the right, using [the CommonMark demo site](https://spec.commonmark.org/dingus/).
+Original snippet on the left and expected output on the right, using [the CommonMark demo site](https://spec.commonmark.org/dingus/), as well as the output using preview in VScode.
 
 ![Image](images4/snip1should.png)
 
 **MarkdownParseTest:**
 
-![Image](images4/)
+I made a test for this by asserting that the expected links and the output of `MarkdownParse.getLinks()` would be the same.
 
-**My implementation:**
+![Image](images4/snip1_my_test.png)
 
-![Image](images4/)
+**My implementation output:**
+
+My implementation didn't pass for [snippet 1](misc/snippet1.md). 
+
+![Image](images4/snip1_my_output.png)
 
 **Reviewed implementation:**
 
 ![Image](images4/)
 
+**My thoughts on code changes to deal with backticks**
+
+I think that solving backticks in links would require a relatively large change to the code because the way backticks behaves in links is different for brackets and parentheses.
+
+For example, brackets inside backticks must be ignored and not treated as part of a link but parentheses inside backticks should be taken into account.
+
+To solve this I would have to first check for backticks, and whether or not to include brackets inside it as part of a link.
+
 ---
 
-## Snippet 2
+## 2. Snippet 2
 
 **What it should produce:** 
 
@@ -32,11 +44,15 @@ Original snippet on the left and expected output on the right, using [the Common
 
 **MarkdownParseTest:**
 
-![Image](images4/)
+I made a test for this by asserting that the expected links and the output of `MarkdownParse.getLinks()` would be the same.
 
-**My implementation:**
+![Image](images4/snip2_my_test.png)
 
-![Image](images4/)
+**My implementation output:**
+
+My implementation didn't pass for [snippet 2](misc/snippet2.md). 
+
+![Image](images4/snip2_my_output.png)
 
 **Reviewed implementation:**
 
@@ -44,7 +60,7 @@ Original snippet on the left and expected output on the right, using [the Common
 
 ---
 
-## Snippet 3
+## 3. Snippet 3
 
 **What it should produce:** 
 
@@ -52,11 +68,15 @@ Original snippet on the left and expected output on the right, using [the Common
 
 **MarkdownParseTest:**
 
-![Image](images4/)
+I made a test for this by asserting that the expected links and the output of `MarkdownParse.getLinks()` would be the same.
 
-**My implementation:**
+![Image](images4/snip3_my_test.png)
 
-![Image](images4/)
+**My implementation output:**
+
+My implementation didn't pass for [snippet 3](misc/snippet3.md). 
+
+![Image](images4/snip3_my_output.png)
 
 **Reviewed implementation:**
 
