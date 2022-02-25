@@ -58,6 +58,14 @@ My implementation didn't pass for [snippet 2](misc/snippet2.md).
 
 ![Image](images4/)
 
+**My thoughts on dealing with nested and escaped parentheses and brackets**
+
+I think that escaped parentheses and brackets would be a small change that could be implemented, but not nested ones.
+
+Solving nested ones would be much more difficult because if it was intended not to be a nested parenthesis or bracket, singular ones would ruin the code because it would be checking for groups of closed parentheses and brackets.
+
+To solve escaped parentheses and brackets I would have to ignore parentheses and brackets that are immediately preceded by a single backslash from being treated as part of a link.
+
 ---
 
 ## 3. Snippet 3
@@ -81,3 +89,9 @@ My implementation didn't pass for [snippet 3](misc/snippet3.md).
 **Reviewed implementation:**
 
 ![Image](images4/)
+
+**My thoughts on newlines and spaces in links**
+
+I think getting my program to deal with newlines and spaces would only require a small code change.
+
+I specifically designed my parser to ignore links that had spaces in them, so I think I'd only have to remove that aspect from my code and make slight adjustments as necessary.
