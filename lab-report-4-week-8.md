@@ -2,6 +2,8 @@
 
 [My MarkdownParse repository](https://github.com/hungrypingu/markdown-parse)
 
+Due to emergency I was unable to do Week7's work, but I'll catch up and add that here as soon as possible (probably over the weekend).
+
 ## 1. Snippet 1
 
 **What it should produce:** 
