@@ -24,6 +24,12 @@ My implementation didn't pass for [snippet 1](misc/snippet1.md).
 
 ![Image](images4/snip1_my_output.png)
 
+**Other group's output:**
+
+The other group's implementation passed for [snippet 1](misc/snippet1.md).
+
+![Image](images4/snip1_othergroup_output.png)
+
 **My thoughts on code changes to deal with backticks**
 
 I think that solving backticks in links would require a relatively large change to the code because the way backticks behaves in links is different for brackets and parentheses.
@@ -52,6 +58,12 @@ My implementation didn't pass for [snippet 2](misc/snippet2.md).
 
 ![Image](images4/snip2_my_output.png)
 
+**Other group's output:**
+
+The other group's implementation also didn't pass for [snippet 2](misc/snippet2.md).
+
+![Image](images4/snip2_othergroup_output.png)
+
 **My thoughts on dealing with nested and escaped parentheses and brackets**
 
 I think that escaped parentheses and brackets would be a small change that could be implemented, but not nested ones.
@@ -79,6 +91,12 @@ I made a test for this by asserting that the expected links and the output of `M
 My implementation didn't pass for [snippet 3](misc/snippet3.md). 
 
 ![Image](images4/snip3_my_output.png)
+
+**Other group's output:**
+
+The other group's implementation also didn't pass for [snippet 3](misc/snippet3.md).
+
+![Image](images4/snip3_othergroup_output.png)
 
 **My thoughts on newlines and spaces in links**
 
