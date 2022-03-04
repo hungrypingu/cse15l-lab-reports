@@ -2,7 +2,7 @@
 
 [My MarkdownParse repository](https://github.com/hungrypingu/markdown-parse)
 
-Due to emergency I was unable to do Week7's work, but I'll catch up and add that here as soon as possible (probably over the weekend).
+[Other group's MarkdownParse repository](https://github.com/maotcha/markdown-parse)
 
 ## 1. Snippet 1
 
